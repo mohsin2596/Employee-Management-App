@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Ffem</string>
+    <string name="add_user_text">To add a new user, please enter the user\'s Fullname, unique email and an initial password which he/she can reset later </string>
+    <string name="assign_role_desc">Choose among the three type of user roles</string>
+    <array name="user_roles">
+        <item>Junior Employee</item>
+        <item>Senior Employee</item>
+        <item>Database Admin</item>
+    </array>
+    <array name="task_status_list">
+        <item>Unable to complete</item>
+        <item>Need assistance</item>
+        <item>Completed</item>
+    </array>
+    <string name="assign_task">To assign a new task to a group of Junior employees, tap the button below.</string>
+    <string name="remove_task">To remove some of your assigned tasks, tap on the button below</string>
+    <string name="acheivement">Keep using the app and stay awesome at Film Factory and your achievements will be updated here </string>
+</resources>

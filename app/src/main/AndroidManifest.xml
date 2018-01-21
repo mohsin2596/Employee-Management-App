@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.filmfactory.ffem">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".WelcomeActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AdminActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AddUser"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".UpdateUser"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".RemoveUser"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AddRole"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".UpdateUserTwo"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".EmployeeActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AssignNewTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".RemoveTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SelectJuniors"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Chat"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".DbAdminActivity"
+            android:screenOrientation="portrait" />
+
+        <service
+            android:name=".Services.SeniorTaskService"
+            android:exported="true" />
+        <service android:name=".Services.JuniorTaskService" />
+
+        <activity
+            android:name=".ProfileActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SearchUser"
+            android:screenOrientation="portrait" />
+        <activity android:name=".EditProfile" />
+        <activity android:name=".Achievement"></activity>
+    </application>
+
+</manifest>
